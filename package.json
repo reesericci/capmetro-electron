@@ -1,0 +1,23 @@
+{
+  "name": "capmetro-electron",
+  "version": "1.0.0",
+  "description": "An electron wrapper for the capmetro website",
+  "main": "main.js",
+  "author": "reesericci",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "electron": "^13.1.7"
+  },
+  "build": {
+    "appId": "com.reesericci.capmetro-electron",
+    "extraFiles": [
+      "AppRun"
+    ],
+    "linux": {
+      "icon":"capmetro.png",
+      "category": "Utility",
+      "target": "AppImage"
+    },
+    "publish": "onTagOrDraft"
+  }
+}
