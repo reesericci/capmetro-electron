@@ -4,6 +4,7 @@
   "description": "An electron wrapper for the capmetro website",
   "main": "main.js",
   "author": "reesericci",
+  "repository": "github:reesericci/capmetro-electron",
   "license": "GPL-3.0-or-later",
   "devDependencies": {
     "electron": "^13.1.7"
@@ -18,6 +19,6 @@
       "category": "Utility",
       "target": "AppImage"
     },
-    "publish": "onTagOrDraft"
+    "publish": "github"
   }
 }
