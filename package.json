@@ -20,5 +20,10 @@
       "target": "AppImage"
     },
     "publish": "github"
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "release": "electron-builder"
   }
 }
